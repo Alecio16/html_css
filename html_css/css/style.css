@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+:root {
+  --corprincipal: #7dffff;
+  --corsegundaria: #48ff6f;
+  --cordetasque: #ffaa27;
+  --acesso1: #800080;
+  --acesso2: #0000ff;
+  --cordolira: #dc3c14;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: linear-gradient(
+    to top,
+    var(--corprincipal),
+    var(--cordetasque)
+  );
+}
